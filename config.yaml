@@ -1,4 +1,4 @@
-baseURL:
+baseURL: "https://yylunxie.github.io/myblog/"
 languageCode: en-us
 theme: PaperMod
 title: Allen Hsieh
