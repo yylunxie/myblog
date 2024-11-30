@@ -40,3 +40,5 @@ cover:
 
 Hello, my name is Allen Hsieh. Nice to meet you guys.
 This is a testing post.
+
+![Photo](me.png)
