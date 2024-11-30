@@ -39,10 +39,10 @@ params:
   # showtoc: false
   # tocopen: false
 
-  label:
-    text: "Allen Hsieh"
-    icon: "static/img/sea.jpg"
-    iconHeight: 35
+  # label:
+  #   text: "Allen Hsieh"
+  #   icon: "static/img/sea.jpg"
+  #   iconHeight: 35
 
   # profile-mode
   # profileMode:
@@ -61,8 +61,8 @@ params:
 
   homeInfoParams:
     Title: "Welcome! \U0001F44B"
-    Content: This is the website of **Allen Hsieh**. 
-     You can find my blogs and gallery here.
+    Content: This is the website of **Allen Hsieh**.
+      You can find my blogs and gallery here.
 
   socialIcons:
     - name: facebook
@@ -76,8 +76,8 @@ params:
     # - name: cv
     #   url: https://drive.google.com/file/d/12z31nVBcBgcXiNpt1833g8MRD3Ro4tfd/view?usp=sharing
 
-  cover:
-    linkFullImages: true
+  # cover:
+  #   linkFullImages: true
 
   ShowBreadCrumbs: true
 
@@ -95,10 +95,10 @@ params:
   #   yandex:
   #     SiteVerificationTag: "XYZabc"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: false # hide on single page
+  # cover:
+  #   hidden: true # hide everywhere but not in structured data
+  #   hiddenInList: true # hide on list pages and home
+  #   hiddenInSingle: false # hide on single page
 
   # for search
   # https://fusejs.io/api/options.html
@@ -110,7 +110,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-
 
 menu:
   main:
