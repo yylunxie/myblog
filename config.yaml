@@ -1,7 +1,7 @@
 baseURL: "https://yylunxie.github.io/myblog/"
 languageCode: en-us
 theme: PaperMod
-# paginate: 5
+paginate: 5
 title: Allen Hsieh
 
 enableRobotsTXT: true
@@ -18,31 +18,14 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: AllenHsieh
   description: "This is the website of Allen Hsieh"
-  keywords: [Blog, Portfolio, Data Science]
+  keywords: [Blog, Portfolio, Data Science, PaperMod]
   author: Allen Hsieh
-  # author: ["Me", "You"] # multiple authors
-  #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
-  # ShowReadingTime: true
-  # ShowShareButtons: true
-  # ShowPostNavLinks: true
-  # ShowBreadCrumbs: true
-  # ShowCodeCopyButtons: false
-  # disableSpecial1stPost: false
-  # disableScrollToTop: false
-  # comments: false
-  # hidemeta: false
-  # hideSummary: false
-  # showtoc: false
-  # tocopen: false
-
-  # label:
-  #   text: "Allen Hsieh"
-  #   icon: "static/img/sea.jpg"
-  #   iconHeight: 35
+  assets:
+    favicon: "images/open-book.png"
+  ShareButtons: ["x", "linkedin", "facebook"]
 
   # profile-mode
   # profileMode:
@@ -76,29 +59,11 @@ params:
     # - name: cv
     #   url: https://drive.google.com/file/d/12z31nVBcBgcXiNpt1833g8MRD3Ro4tfd/view?usp=sharing
 
-  # cover:
-  #   linkFullImages: true
-
-  ShowBreadCrumbs: true
-
-  ShowReadingTime: true
-
-  ShowShareButtons: true
-
-  ShowPostNavLinks: true
-
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: "XYZabc"
-  #   bing:
-  #     SiteVerificationTag: "XYZabc"
-  #   yandex:
-  #     SiteVerificationTag: "XYZabc"
-
-  # cover:
-  #   hidden: true # hide everywhere but not in structured data
-  #   hiddenInList: true # hide on list pages and home
-  #   hiddenInSingle: false # hide on single page
+  cover:
+    responsiveImages: false
+    hidden: true # hide everywhere but not in structured data
+    #   hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # for search
   # https://fusejs.io/api/options.html
@@ -111,12 +76,26 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
+  ShowShareButtons: ture
+  ShowReadingTime: true
+  ShowToc: true
+  TocOpen: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
+
+  label:
+    text: "Allen Hsieh"
+    icon: :images/open-book.png"
+    iconHeight: 35
+
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 40
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 40
     - identifier: blogs
       name: Blogs
       url: /blogs/

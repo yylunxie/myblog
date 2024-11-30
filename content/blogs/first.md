@@ -2,6 +2,7 @@
 date: "2024-11-30T00:16:35+08:00"
 draft: false
 title: "寫作的緣起"
+slug: The beginning
 cover:
   image: covers/sea.jpg
   alt: "sea.jpg"
