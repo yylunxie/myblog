@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Allen Hsieh</title>
-    <link>https://yylunxie.github.io/myblog/projects/</link>
+    <link>http://localhost:1313/myblog/projects/</link>
     <description>Recent content in Projects on Allen Hsieh</description>
     <generator>Hugo -- 0.139.2</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://yylunxie.github.io/myblog/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Nov 2024 11:24:54 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/myblog/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project1</title>
+      <link>http://localhost:1313/myblog/projects/project1/</link>
+      <pubDate>Sat, 30 Nov 2024 11:24:54 +0800</pubDate>
+      <guid>http://localhost:1313/myblog/projects/project1/</guid>
+      <description>Desc Text.</description>
+    </item>
   </channel>
 </rss>
