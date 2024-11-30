@@ -4,7 +4,7 @@ draft: false
 title: "寫作的緣起"
 cover:
   image: img/sea.jpg
-  alt: "This is a post image"
+  alt: "sea.jpg"
 tags: ["blog"]
 categories: ["blog"]
 ---
