@@ -1,17 +1,17 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: '{{ .Date }}'
+title: 'Test'
+date: '2024-11-30T10:56:03+08:00'
 # weight: 1
 # aliases: ["/first"]
 tags: [""]
-# author: "Allen Hsieh"
+# author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: true
 hidemeta: false
 comments: true
-description: "Desc Text."
+# description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -35,3 +35,8 @@ cover:
 #     Text: "Suggest Changes" # edit text
 #     appendFilePath: true # to append file path to Edit link
 ---
+
+# Introduction
+
+Hello, my name is Allen Hsieh. Nice to meet you guys.
+This is a testing post.

@@ -2,27 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/myblog/</loc>
-    <lastmod>2024-11-30T00:20:09+08:00</lastmod>
+    <loc>https://yylunxie.github.io/myblog/</loc>
+    <lastmod>2024-11-30T11:25:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/myblog/posts/</loc>
-    <lastmod>2024-11-30T00:20:09+08:00</lastmod>
+    <loc>https://yylunxie.github.io/myblog/gallery/</loc>
+    <lastmod>2024-11-30T11:25:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/myblog/tags/blog/</loc>
-    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
+    <loc>https://yylunxie.github.io/myblog/projects/</loc>
+    <lastmod>2024-11-30T11:24:54+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/myblog/categories/blog/</loc>
-    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
+    <loc>https://yylunxie.github.io/myblog/blogs/</loc>
+    <lastmod>2024-11-30T10:56:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/myblog/categories/</loc>
-    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
+    <loc>https://yylunxie.github.io/myblog/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/myblog/tags/</loc>
-    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
+    <loc>https://yylunxie.github.io/myblog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/myblog/posts/post/first/</loc>
-    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/myblog/archives/</loc>
+    <loc>https://yylunxie.github.io/myblog/tags/</loc>
   </url>
 </urlset>

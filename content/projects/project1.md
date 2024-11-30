@@ -1,6 +1,6 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: '{{ .Date }}'
+title: 'Project1'
+date: '2024-11-30T11:24:54+08:00'
 # weight: 1
 # aliases: ["/first"]
 tags: [""]
