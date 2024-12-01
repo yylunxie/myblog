@@ -3,7 +3,7 @@ title: "Japan"
 date: "2024-11-30T11:25:10+08:00"
 # weight: 1
 # aliases: ["/first"]
-tags: [""]
+tags: ["Japan", "Photography"]
 draft: false
 ShowShareButtons: true
 ShowReadingTime: false
@@ -20,6 +20,10 @@ comments: true
 #   relative: false # when using page bundles set this to true
 #   hidden: true # only hide on current single page
 ---
+
+2024.7.21 ~ 2024.8.5
+
+紀錄沿路風景
 
 ![Photo](img/japan-1.jpeg)
 ![Photo](img/japan-2.jpeg)
