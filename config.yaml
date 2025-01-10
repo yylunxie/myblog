@@ -48,8 +48,8 @@ params:
       You can find my blogs and gallery here.
 
   socialIcons:
-    - name: facebook
-      url: https://www.facebook.com/yylunxie/
+    # - name: facebook
+    #   url: https://www.facebook.com/yylunxie/
     # - name: instagram
     #   url: https://www.instagram.com/yylunxie/
     - name: github
