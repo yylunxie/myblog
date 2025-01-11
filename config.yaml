@@ -4,6 +4,9 @@ theme: PaperMod
 paginate: 5
 title: Allen Hsieh
 
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -14,15 +17,68 @@ minify:
   disableXML: true
   minifyOutput: true
 
+languages:
+  en:
+    contentDir: content/
+    languageName: English
+    languageCode: en
+    weight: 1
+    menu:
+      main:
+        - identifier: blogs
+          name: Blogs
+          url: /blogs/
+          weight: 20
+        - identifier: gallery
+          name: Gallery
+          url: /gallery/
+          weight: 30
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 80
+        - name: Tags
+          url: tags/
+          weight: 90
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 99
+  zh-tw:
+    disabled: true
+    contentDir: content/
+    languageName: 中文
+    languageCode: "zh-tw"
+    weight: 2
+    menu:
+      main:
+        - identifier: blogs
+          name: 文章
+          url: /blogs/
+          weight: 20
+        - identifier: gallery
+          name: 相簿
+          url: /gallery/
+          weight: 30
+        - identifier: search.zh-tw
+          name: 搜尋
+          url: /search/
+          weight: 80
+        - name: Tags
+          url: tags/
+          weight: 90
+        - identifier: archives
+          name: 典藏
+          url: /archives/
+          weight: 99
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: AllenHsieh
   description: "This is the website of Allen Hsieh"
-  keywords: [Blog, Portfolio, Data Science, PaperMod]
   author: Allen Hsieh
+  keywords: [Blog, Portfolio, Data Science, PaperMod]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
   assets:
     favicon: "images/open-book.png"
   ShareButtons: ["x", "linkedin", "facebook"]
@@ -65,6 +121,21 @@ params:
     #   hiddenInList: true # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
+  # Other settings
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  disableScrollToTop: false
+  disableAnchoredHeadings: true
+  ShowToc: true # show table of content
+  TocOpen: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  comments: true
+  displayFullLangName: false
+
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -76,39 +147,14 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-  ShowShareButtons: true
-  ShowReadingTime: true
-  ShowToc: true
-  TocOpen: true
-  ShowBreadCrumbs: true
-  ShowPostNavLinks: true
-  ShowCodeCopyButtons: true
-  comments: true
-
   label:
     text: "Allen Hsieh"
     icon: "images/open-book.png"
     iconHeight: 35
 
-menu:
-  main:
-    # - identifier: about
-    #   name: About
-    #   url: /about/
-    #   weight: 40
-    - identifier: blogs
-      name: Blogs
-      url: /blogs/
-      weight: 20
-    # - identifier: projects
-    #   name: Projects
-    #   url: /projects/
-    #   weight: 3
-    - identifier: gallery
-      name: Gallery
-      url: /gallery/
-      weight: 30
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 99
+# Searching Function
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PaperMod on Allen Hsieh</title>
+    <link>http://localhost:1313/myblog/zh-tw/tags/papermod/</link>
+    <description>Recent content in PaperMod on Allen Hsieh</description>
+    <generator>Hugo -- 0.139.2</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 30 Nov 2024 22:36:51 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/myblog/zh-tw/tags/papermod/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo &#43; GitHub Pages 個人網站建置教學</title>
+      <link>http://localhost:1313/myblog/zh-tw/blogs/hugo_tutorial/</link>
+      <pubDate>Sat, 30 Nov 2024 22:36:51 +0800</pubDate>
+      <guid>http://localhost:1313/myblog/zh-tw/blogs/hugo_tutorial/</guid>
+      <description>&lt;p&gt;在現在好像沒有自己的品牌是一件很稀有的事（ 比日本製的壓縮機還要稀少 ）。為了解決大家的煩惱，這是一篇帶你使用 &lt;strong&gt;Hugo + Github Pages&lt;/strong&gt; 從零開始製作個人網站的教學！&lt;/p&gt;
+&lt;p&gt;那我們就直接開始！&lt;/p&gt;
+&lt;h1 id=&#34;1-安裝-hugo&#34;&gt;1. 安裝 Hugo&lt;/h1&gt;
+&lt;p&gt;本章節按照 &lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;Hugo 官方推薦步驟&lt;/a&gt; 進行安裝。&lt;/p&gt;
+&lt;h3 id=&#34;macos&#34;&gt;MacOS&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;使用 Homebrew 進行安裝，若還未安裝 Homebrew 請先自行安裝。進入 Terminal (終端機) 輸入以下指令：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;輸入以下指令已檢查是否安裝成功：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;若有出現版本資訊即代表安裝成功。&lt;/p&gt;
+&lt;h1 id=&#34;2-套用主題&#34;&gt;2. 套用主題&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;到 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;官方的主題網站&lt;/a&gt; 瀏覽並選擇自己喜歡的主題，本文以 &lt;em&gt;PaperMod&lt;/em&gt; 為例。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;先在本地創建一個新的 Hugo 網站&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site MyFreshWebsite --format yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 將 MyFreshWebsite 替換為自己網站的名稱&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--format yaml&lt;/code&gt;：將 hugo 的設定檔更改為 yaml 格式。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Step 3.&lt;/strong&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

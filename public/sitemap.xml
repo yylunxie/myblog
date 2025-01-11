@@ -2,19 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/myblog/tags/algorithm/</loc>
-    <lastmod>2025-01-10T22:36:51+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/myblog/</loc>
-    <lastmod>2025-01-10T22:36:51+08:00</lastmod>
+    <lastmod>2025-01-11T17:04:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog/blogs/</loc>
-    <lastmod>2025-01-10T22:36:51+08:00</lastmod>
+    <lastmod>2025-01-11T17:04:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog/tags/hackerrank/</loc>
     <lastmod>2025-01-10T22:36:51+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/myblog/blogs/hackerrank_maximum_subarray/</loc>
+    <loc>http://localhost:1313/myblog/blogs/hackerrank_day0/</loc>
     <lastmod>2025-01-10T22:36:51+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog/tags/python/</loc>
@@ -22,6 +19,18 @@
   </url><url>
     <loc>http://localhost:1313/myblog/tags/</loc>
     <lastmod>2025-01-10T22:36:51+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/github-pages/</loc>
+    <lastmod>2024-11-30T22:36:51+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/hugo/</loc>
+    <lastmod>2024-11-30T22:36:51+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/blogs/hugo_tutorial/</loc>
+    <lastmod>2024-11-30T22:36:51+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/papermod/</loc>
+    <lastmod>2024-11-30T22:36:51+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog/gallery/</loc>
     <lastmod>2024-11-30T11:25:10+08:00</lastmod>
@@ -38,18 +47,10 @@
     <loc>http://localhost:1313/myblog/projects/</loc>
     <lastmod>2024-11-30T11:24:54+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/myblog/tags/blog/</loc>
-    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/myblog/categories/blog/</loc>
-    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
+    <loc>http://localhost:1313/myblog/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/myblog/categories/</loc>
-    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/myblog/blogs/the-beginning/</loc>
-    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/myblog/archives/</loc>
+    <loc>http://localhost:1313/myblog/search/</loc>
   </url>
 </urlset>
