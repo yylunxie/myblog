@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yylunxie.github.io/myblog/tags/ai/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
     <loc>https://yylunxie.github.io/myblog/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
   </url><url>
     <loc>https://yylunxie.github.io/myblog/blogs/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yylunxie.github.io/myblog/tags/machine-learning/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yylunxie.github.io/myblog/tags/semi-supervised-learning/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yylunxie.github.io/myblog/tags/supervised-learning/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yylunxie.github.io/myblog/tags/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yylunxie.github.io/myblog/tags/unsupervised-learning/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yylunxie.github.io/myblog/blogs/aws_aif_qanda/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
   </url><url>
     <loc>https://yylunxie.github.io/myblog/tags/hackerrank/</loc>
@@ -15,9 +36,6 @@
     <lastmod>2025-01-10T22:36:51+08:00</lastmod>
   </url><url>
     <loc>https://yylunxie.github.io/myblog/tags/python/</loc>
-    <lastmod>2025-01-10T22:36:51+08:00</lastmod>
-  </url><url>
-    <loc>https://yylunxie.github.io/myblog/tags/</loc>
     <lastmod>2025-01-10T22:36:51+08:00</lastmod>
   </url><url>
     <loc>https://yylunxie.github.io/myblog/tags/github-pages/</loc>

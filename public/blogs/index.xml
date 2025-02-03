@@ -6,8 +6,54 @@
     <description>Recent content in Blogs on Allen Hsieh</description>
     <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jan 2025 22:36:51 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 17:04:15 +0800</lastBuildDate>
     <atom:link href="https://yylunxie.github.io/myblog/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>機器學習常見問題：監督式學習和非監督式學習的差異？</title>
+      <link>https://yylunxie.github.io/myblog/blogs/aws_aif_qanda/</link>
+      <pubDate>Sun, 02 Feb 2025 17:04:15 +0800</pubDate>
+      <guid>https://yylunxie.github.io/myblog/blogs/aws_aif_qanda/</guid>
+      <description>&lt;p&gt;&lt;em&gt;last update: 2025-02-02&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;在 AI 世界有太多太多名詞，對於小白來說特別容易感到沒有方向。不論是經典的機器學習或是深度學習，當提到訓練方法時，大致上可以分成三種：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;監督式學習 Supervised Learning&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非監督式學習 Unsupervised Learning&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;半監督式學習 Semi-supervised Learning&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;你可能會好奇：「為什麼叫監督式學習？難道我要在旁邊盯著模型學習嗎？」其實，「監督」的意思是指提供標註資料，而「非監督」則是讓模型自行尋找模式，今天這篇文章就會幫你釐清以上的問題。&lt;/p&gt;
+&lt;h1 id=&#34;監督式學習-supervised-learning&#34;&gt;監督式學習 Supervised Learning&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;監督式學習透過大量的 &lt;strong&gt;標註資料（Labeled Data）&lt;/strong&gt; 訓練模型，讓模型學會從「已知答案」中找出規則，並應用到新的資料上。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;舉例來說，現在你想要透過機器學習模型辨是貓或是狗，因此你收集了大量貓和狗的照片作為訓練資料，另外你還對照片加上註解，說明這張照片是貓還是狗，因此你的訓練資料即為「標註資料」。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;training data&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.github.io/myblog/myblog/blogs/aws_aif_qanda/images/training_data.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;只要有足夠的標註資料，經過訓練的模型就能正確的回答你這張照片是貓或是狗。在這個例子中，模型的輸入是圖片的像素數據，而輸出則是一個標籤（貓或狗）。透過大量標註過的圖片，模型學習如何將新的圖片對應到正確的分類。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;process&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.github.io/myblog/myblog/blogs/aws_aif_qanda/images/process_super.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其他應用？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;監督式學習除了用來進行分類（如貓狗識別），還能用於:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;房價預測 🏡 → AI 透過大量的「房屋特徵 + 成交價格」數據學習，能夠根據房屋的大小、地點和其他條件來預測新房屋的價格，幫助買賣雙方做出更好的決策。&lt;/li&gt;
+&lt;li&gt;病患康復時間預測 🏥 → AI 透過醫院收集的「病患狀況 + 康復時間」數據學習，當新病人來就診時，系統能夠根據病情預測大約需要多久才能康復，幫助醫生規劃治療方案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;小結&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;監督式學習就像是在「有老師指導」的情況下學習。模型學會從&lt;strong&gt;已知的問題與答案&lt;/strong&gt;中找出規則，然後用這些規則來預測新資料的結果。&lt;/p&gt;
+&lt;h1 id=&#34;非監督式學習-unsupervised-learning&#34;&gt;非監督式學習 Unsupervised Learning&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;非監督式學習使用 &lt;strong&gt;未標記的資料&lt;/strong&gt; 來進行訓練，目標是讓模型自己找出數據中的規律，例如把相似的東西分成不同的類別。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;同樣以動物來舉例，現在你有許多動物的照片如下圖&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;training data&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.github.io/myblog/myblog/blogs/aws_aif_qanda/images/unlabel_training.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;並且你希望找出這些動物可以分成幾類，於是將所有照片交給機器學習模型進行訓練。最後，模型告訴你可以分成貓、狗和魚三類，這就是一個非監督式學習經典的分群應用。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;result&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.github.io/myblog/myblog/blogs/aws_aif_qanda/images/group.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其他應用？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;除了分群問題，非監督式學習還常見於：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;音樂與電影推薦 🎵🎬 → Spotify 或 Netflix 會分析你的喜好，找出跟你相似的人，然後推薦你可能喜歡的歌曲或電影。&lt;/li&gt;
+&lt;li&gt;垃圾郵件過濾 📧 → 電郵服務會分析郵件內容，判斷哪些郵件「看起來像垃圾信」，即使沒有標記，它也能學會分類。&lt;/li&gt;
+&lt;li&gt;社群媒體標籤 📷 → Instagram 可能會自動將你的照片分組，例如「食物」、「風景」、「自拍」，幫助你更方便整理相冊。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;小結&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hackerrank Day 0</title>
       <link>https://yylunxie.github.io/myblog/blogs/hackerrank_day0/</link>
@@ -22,7 +68,7 @@
       <link>https://yylunxie.github.io/myblog/blogs/hugo_tutorial/</link>
       <pubDate>Sat, 30 Nov 2024 22:36:51 +0800</pubDate>
       <guid>https://yylunxie.github.io/myblog/blogs/hugo_tutorial/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Update: January 12, 2025&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;Update: Febuary 3, 2025&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;在現在好像沒有自己的品牌是一件很稀有的事（ 比日本製的壓縮機還要稀少 ）。為了解決大家的煩惱，這是一篇帶你使用 &lt;strong&gt;Hugo + Github Pages&lt;/strong&gt; 從零開始製作個人網站的教學！&lt;/p&gt;
 &lt;p&gt;那我們就直接開始！&lt;/p&gt;
 &lt;h1 id=&#34;1-安裝-hugo&#34;&gt;1. 安裝 Hugo&lt;/h1&gt;
