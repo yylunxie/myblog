@@ -383,7 +383,66 @@ jobs:
 
 當設定完成後，過一下 GitHub Pages 的自訂域名就設定完成了！
 
-# 7. Tips
+# 7. Google Analytics 追蹤網站流量
+
+**Step 1.**
+先到 https://analytics.google.com/ 照著步驟註冊帳號。
+注意事項：
+
+- 帳號名稱可以隨意填
+- 屬性名稱可以填 Github 帳號
+
+**Step 2.**
+完成後，選擇網站。網站網址填入先前設定好的網址，串流名稱則為辨識用，可以隨意取。
+
+**Step 3.**
+取得 Google Analytics 提供的串流 ID。
+
+在 `config.yaml` 中新增下列指令，並將 `G-XXXXXXXXXX` 替換為你的串流 ID
+
+```yaml
+googleAnalytics: G-XXXXXXXXXX
+```
+
+這樣 Hugo 會自動在 head.html 內插入 GA 代碼！
+
+此外，params 內應該要有：
+
+```yaml
+params:
+  env: production
+```
+
+這樣可以確保只會在 production 環境追蹤。
+
+**Step 4.**
+
+確保 head.html 內有 GA 代碼，Hugo 應該會在 themes/PaperMod/layouts/partials/head.html 內自動插入：
+
+```html
+{{- template "_internal/google_analytics.html" . }}
+```
+
+通常在最後幾行，如果這行已經存在，你不需要手動插入 GA 代碼，它應該會自動運行。
+
+**Step 5.**
+最後將其部署到 Github 即完成，範例如下：
+
+```bash
+hugo --gc --minify
+git add .
+git commit -m "Enable Google Analytics"
+git push origin main
+```
+
+然後只要打開網站，並回到 Google Analytics 的網站，應該會出現以下畫面：
+![Success](images/success.png)
+
+# 8. Google Search Console 讓大家可以搜尋到你
+
+（待更新）
+
+# 9. Other Tips
 
 ## Collapsible Section
 
