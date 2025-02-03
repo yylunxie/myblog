@@ -2,55 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yylunxie.github.io/myblog/</loc>
+    <loc>http://localhost:1313/myblog/tags/ai/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/blogs/</loc>
+    <loc>http://localhost:1313/myblog/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/tags/hackerrank/</loc>
+    <loc>http://localhost:1313/myblog/blogs/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/machine-learning/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/semi-supervised-learning/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/supervised-learning/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/unsupervised-learning/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/blogs/aws_aif_qanda/</loc>
+    <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/hackerrank/</loc>
+    <lastmod>2025-01-11T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/blogs/hackerrank_day1/</loc>
+    <lastmod>2025-01-11T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/tags/python/</loc>
+    <lastmod>2025-01-11T17:04:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/blogs/hackerrank_day0/</loc>
     <lastmod>2025-01-10T22:36:51+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/blogs/hackerrank_day0/</loc>
-    <lastmod>2025-01-10T22:36:51+08:00</lastmod>
-  </url><url>
-    <loc>https://yylunxie.github.io/myblog/tags/python/</loc>
-    <lastmod>2025-01-10T22:36:51+08:00</lastmod>
-  </url><url>
-    <loc>https://yylunxie.github.io/myblog/tags/</loc>
-    <lastmod>2025-01-10T22:36:51+08:00</lastmod>
-  </url><url>
-    <loc>https://yylunxie.github.io/myblog/tags/github-pages/</loc>
+    <loc>http://localhost:1313/myblog/tags/github-pages/</loc>
     <lastmod>2024-11-30T22:36:51+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/tags/hugo/</loc>
+    <loc>http://localhost:1313/myblog/tags/hugo/</loc>
     <lastmod>2024-11-30T22:36:51+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/blogs/hugo_tutorial/</loc>
+    <loc>http://localhost:1313/myblog/blogs/hugo_tutorial/</loc>
     <lastmod>2024-11-30T22:36:51+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/tags/papermod/</loc>
+    <loc>http://localhost:1313/myblog/tags/papermod/</loc>
     <lastmod>2024-11-30T22:36:51+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/gallery/</loc>
+    <loc>http://localhost:1313/myblog/gallery/</loc>
     <lastmod>2024-11-30T11:25:10+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/tags/japan/</loc>
+    <loc>http://localhost:1313/myblog/tags/japan/</loc>
     <lastmod>2024-11-30T11:25:10+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/gallery/japan/</loc>
+    <loc>http://localhost:1313/myblog/gallery/japan/</loc>
     <lastmod>2024-11-30T11:25:10+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/tags/photography/</loc>
+    <loc>http://localhost:1313/myblog/tags/photography/</loc>
     <lastmod>2024-11-30T11:25:10+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/projects/</loc>
+    <loc>http://localhost:1313/myblog/projects/project1/</loc>
     <lastmod>2024-11-30T11:24:54+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/archives/</loc>
+    <loc>http://localhost:1313/myblog/projects/</loc>
+    <lastmod>2024-11-30T11:24:54+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/categories/</loc>
+    <loc>http://localhost:1313/myblog/about/</loc>
+    <lastmod>2024-11-30T11:24:26+08:00</lastmod>
   </url><url>
-    <loc>https://yylunxie.github.io/myblog/search/</loc>
+    <loc>http://localhost:1313/myblog/tags/blog/</loc>
+    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/categories/blog/</loc>
+    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/categories/</loc>
+    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/blogs/the-beginning/</loc>
+    <lastmod>2024-11-30T00:16:35+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/myblog/search/</loc>
   </url>
 </urlset>
