@@ -13,7 +13,7 @@ cover:
 # translationKey: hugo_tutorial
 ---
 
-_Update: Febuary 3, 2025_
+_Update: Feb 3, 2025_
 
 在現在好像沒有自己的品牌是一件很稀有的事（ 比日本製的壓縮機還要稀少 ）。為了解決大家的煩惱，這是一篇帶你使用 **Hugo + Github Pages** 從零開始製作個人網站的教學！
 

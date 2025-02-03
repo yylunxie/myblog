@@ -19,7 +19,7 @@ cover:
   hidden: true # only hide on current single page
 ---
 
-_last update: 2025-02-02_
+_Update: Feb 4, 2025_
 
 在 AI 世界有太多太多名詞，對於小白來說特別容易感到沒有方向。不論是經典的機器學習或是深度學習，當提到訓練方法時，大致上可以分成三種：
 
