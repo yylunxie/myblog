@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Allen Hsieh</title>
-    <link>https://yylunxie.github.io/myblog/tags/</link>
+    <link>https://yylunxie.me/tags/</link>
     <description>Recent content in Tags on Allen Hsieh</description>
     <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 02 Feb 2025 17:04:15 +0800</lastBuildDate>
-    <atom:link href="https://yylunxie.github.io/myblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yylunxie.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>https://yylunxie.github.io/myblog/tags/ai/</link>
+      <link>https://yylunxie.me/tags/ai/</link>
       <pubDate>Sun, 02 Feb 2025 17:04:15 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/ai/</guid>
+      <guid>https://yylunxie.me/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>https://yylunxie.github.io/myblog/tags/machine-learning/</link>
+      <link>https://yylunxie.me/tags/machine-learning/</link>
       <pubDate>Sun, 02 Feb 2025 17:04:15 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/machine-learning/</guid>
+      <guid>https://yylunxie.me/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Semi-Supervised Learning</title>
-      <link>https://yylunxie.github.io/myblog/tags/semi-supervised-learning/</link>
+      <link>https://yylunxie.me/tags/semi-supervised-learning/</link>
       <pubDate>Sun, 02 Feb 2025 17:04:15 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/semi-supervised-learning/</guid>
+      <guid>https://yylunxie.me/tags/semi-supervised-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Supervised Learning</title>
-      <link>https://yylunxie.github.io/myblog/tags/supervised-learning/</link>
+      <link>https://yylunxie.me/tags/supervised-learning/</link>
       <pubDate>Sun, 02 Feb 2025 17:04:15 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/supervised-learning/</guid>
+      <guid>https://yylunxie.me/tags/supervised-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Unsupervised Learning</title>
-      <link>https://yylunxie.github.io/myblog/tags/unsupervised-learning/</link>
+      <link>https://yylunxie.me/tags/unsupervised-learning/</link>
       <pubDate>Sun, 02 Feb 2025 17:04:15 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/unsupervised-learning/</guid>
+      <guid>https://yylunxie.me/tags/unsupervised-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Hackerrank</title>
-      <link>https://yylunxie.github.io/myblog/tags/hackerrank/</link>
+      <link>https://yylunxie.me/tags/hackerrank/</link>
       <pubDate>Fri, 10 Jan 2025 22:36:51 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/hackerrank/</guid>
+      <guid>https://yylunxie.me/tags/hackerrank/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://yylunxie.github.io/myblog/tags/python/</link>
+      <link>https://yylunxie.me/tags/python/</link>
       <pubDate>Fri, 10 Jan 2025 22:36:51 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/python/</guid>
+      <guid>https://yylunxie.me/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub Pages</title>
-      <link>https://yylunxie.github.io/myblog/tags/github-pages/</link>
+      <link>https://yylunxie.me/tags/github-pages/</link>
       <pubDate>Sat, 30 Nov 2024 22:36:51 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/github-pages/</guid>
+      <guid>https://yylunxie.me/tags/github-pages/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://yylunxie.github.io/myblog/tags/hugo/</link>
+      <link>https://yylunxie.me/tags/hugo/</link>
       <pubDate>Sat, 30 Nov 2024 22:36:51 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/hugo/</guid>
+      <guid>https://yylunxie.me/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>PaperMod</title>
-      <link>https://yylunxie.github.io/myblog/tags/papermod/</link>
+      <link>https://yylunxie.me/tags/papermod/</link>
       <pubDate>Sat, 30 Nov 2024 22:36:51 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/papermod/</guid>
+      <guid>https://yylunxie.me/tags/papermod/</guid>
       <description></description>
     </item>
     <item>
       <title>Japan</title>
-      <link>https://yylunxie.github.io/myblog/tags/japan/</link>
+      <link>https://yylunxie.me/tags/japan/</link>
       <pubDate>Sat, 30 Nov 2024 11:25:10 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/japan/</guid>
+      <guid>https://yylunxie.me/tags/japan/</guid>
       <description></description>
     </item>
     <item>
       <title>Photography</title>
-      <link>https://yylunxie.github.io/myblog/tags/photography/</link>
+      <link>https://yylunxie.me/tags/photography/</link>
       <pubDate>Sat, 30 Nov 2024 11:25:10 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/tags/photography/</guid>
+      <guid>https://yylunxie.me/tags/photography/</guid>
       <description></description>
     </item>
   </channel>

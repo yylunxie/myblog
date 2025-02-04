@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Machine Learning on Allen Hsieh</title>
-    <link>https://yylunxie.github.io/myblog/tags/machine-learning/</link>
+    <link>https://yylunxie.me/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on Allen Hsieh</description>
     <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 02 Feb 2025 17:04:15 +0800</lastBuildDate>
-    <atom:link href="https://yylunxie.github.io/myblog/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yylunxie.me/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>機器學習常見問題：監督式學習和非監督式學習的差異？</title>
-      <link>https://yylunxie.github.io/myblog/blogs/aws_aif_qanda/</link>
+      <link>https://yylunxie.me/blogs/aws_aif_qanda/</link>
       <pubDate>Sun, 02 Feb 2025 17:04:15 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/blogs/aws_aif_qanda/</guid>
+      <guid>https://yylunxie.me/blogs/aws_aif_qanda/</guid>
       <description>&lt;p&gt;&lt;em&gt;Update: Feb 4, 2025&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;在 AI 世界有太多太多名詞，對於小白來說特別容易感到沒有方向。不論是經典的機器學習或是深度學習，當提到訓練方法時，大致上可以分成三種：&lt;/p&gt;
 &lt;ol&gt;
@@ -26,9 +26,9 @@
 &lt;p&gt;監督式學習透過大量的 &lt;strong&gt;標註資料（Labeled Data）&lt;/strong&gt; 訓練模型，讓模型學會從「已知答案」中找出規則，並應用到新的資料上。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;舉例來說，現在你想要透過機器學習模型辨是貓或是狗，因此你收集了大量貓和狗的照片作為訓練資料，另外你還對照片加上註解，說明這張照片是貓還是狗，因此你的訓練資料即為「標註資料」。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;training data&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.github.io/myblog/myblog/blogs/aws_aif_qanda/images/training_data.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;training data&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.me/blogs/aws_aif_qanda/images/training_data.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;只要有足夠的標註資料，經過訓練的模型就能正確的回答你這張照片是貓或是狗。在這個例子中，模型的輸入是圖片的像素數據，而輸出則是一個標籤（貓或狗）。透過大量標註過的圖片，模型學習如何將新的圖片對應到正確的分類。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;process&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.github.io/myblog/myblog/blogs/aws_aif_qanda/images/process_super.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;process&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.me/blogs/aws_aif_qanda/images/process_super.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;其他應用？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;監督式學習除了用來進行分類（如貓狗識別），還能用於:&lt;/p&gt;
 &lt;ul&gt;
@@ -42,9 +42,9 @@
 &lt;p&gt;非監督式學習使用 &lt;strong&gt;未標記的資料&lt;/strong&gt; 來進行訓練，目標是讓模型自己找出數據中的規律，例如把相似的東西分成不同的類別。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;同樣以動物來舉例，現在你有許多動物的照片如下圖&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;training data&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.github.io/myblog/myblog/blogs/aws_aif_qanda/images/unlabel_training.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;training data&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.me/blogs/aws_aif_qanda/images/unlabel_training.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;並且你希望找出這些動物可以分成幾類，於是將所有照片交給機器學習模型進行訓練。最後，模型告訴你可以分成貓、狗和魚三類，這就是一個非監督式學習經典的分群應用。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;result&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.github.io/myblog/myblog/blogs/aws_aif_qanda/images/group.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;result&#34; loading=&#34;lazy&#34; src=&#34;https://yylunxie.me/blogs/aws_aif_qanda/images/group.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;其他應用？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;除了分群問題，非監督式學習還常見於：&lt;/p&gt;
 &lt;ul&gt;

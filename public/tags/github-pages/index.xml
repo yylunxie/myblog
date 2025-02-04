@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GitHub Pages on Allen Hsieh</title>
-    <link>https://yylunxie.github.io/myblog/tags/github-pages/</link>
+    <link>https://yylunxie.me/tags/github-pages/</link>
     <description>Recent content in GitHub Pages on Allen Hsieh</description>
     <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 30 Nov 2024 22:36:51 +0800</lastBuildDate>
-    <atom:link href="https://yylunxie.github.io/myblog/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yylunxie.me/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo &#43; GitHub Pages 個人網站建置教學</title>
-      <link>https://yylunxie.github.io/myblog/blogs/hugo_tutorial/</link>
+      <link>https://yylunxie.me/blogs/hugo_tutorial/</link>
       <pubDate>Sat, 30 Nov 2024 22:36:51 +0800</pubDate>
-      <guid>https://yylunxie.github.io/myblog/blogs/hugo_tutorial/</guid>
+      <guid>https://yylunxie.me/blogs/hugo_tutorial/</guid>
       <description>&lt;p&gt;&lt;em&gt;Update: Feb 3, 2025&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;在現在好像沒有自己的品牌是一件很稀有的事（ 比日本製的壓縮機還要稀少 ）。為了解決大家的煩惱，這是一篇帶你使用 &lt;strong&gt;Hugo + Github Pages&lt;/strong&gt; 從零開始製作個人網站的教學！&lt;/p&gt;
 &lt;p&gt;那我們就直接開始！&lt;/p&gt;
