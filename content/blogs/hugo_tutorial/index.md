@@ -472,3 +472,4 @@ Collapsed text
 - [PaperMod](https://adityatelange.github.io/hugo-PaperMod/)
 - [How to build a portfolio website for data science | Hugo + Hostinger](https://www.youtube.com/watch?v=sm3IuE7zkYQ&list=PLeiDFxcsdhUrzkK5Jg9IZyiTsIMvXxKZP&index=2&t=2855s)
 - [Hugo+PaperMod 双语博客搭建 Home-Info+Profile Mode](https://www.yunyitang.me/hugo-papermod-blog/)
+- [[Hugo 自架站-5]安裝 Google Analytics 追蹤網頁的流量與成效](https://deanlin.net/blog/202501/hugo5-install-google-analytics-to-track-website-traffic/)
