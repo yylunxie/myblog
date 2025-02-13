@@ -3,7 +3,7 @@ title: "Hackerrank Day 0"
 date: "2025-01-10T22:36:51+08:00"
 tags: ["Hackerrank", "Python"]
 slug: hackerrank_day0
-draft: false
+draft: true
 cover:
   image: "<image path/url>" # image path/url
   alt: "<alt text>" # alt text
