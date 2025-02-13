@@ -1,0 +1,5 @@
+<p style="text-align:{{ index .Params 0 }}">
+  {{ index .Params 1 | markdownify }}
+</p>
+
+{{/* Example: {{< align center "文字居中" >}} */}}
