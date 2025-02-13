@@ -210,15 +210,13 @@ summary: archives
 在 terminal 使用
 
 ```bash
-hugo new content content/<folder_name>/post.md
+hugo new content content/<folder_name>/<project_name>/index.md
 ```
 
-**方法二、**
+架構如下：
 
-比較簡單也比較好管理，直接在 content 中要建立文章的資料夾中，建立存放該文章的資料夾，並在該資料夾建立 `index.md`（有點饒口）
-
-```shell
-.
+```plaintext
+blog
 ├── config.yml
 ├── content/
 │   ├── archives.md
