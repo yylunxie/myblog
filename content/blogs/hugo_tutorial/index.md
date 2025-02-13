@@ -201,7 +201,9 @@ summary: archives
 
 [config.yml](https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/config.yml)
 
-# 4. 建立文章
+# 4. 建立和部署文章
+
+## 建立
 
 **方法一、**
 
@@ -227,6 +229,22 @@ hugo new content content/<folder_name>/post.md
 └── themes/
     └── PaperMod/
 ```
+
+## 部署
+
+當完成文章，可以使用
+
+```base
+hugo server -D
+```
+
+來檢查文章是否正確，若沒有問題，則可以使用
+
+```bash
+hugo -gc -minify
+```
+
+來部署文章，並將部署後的檔案 push 到 GitHub repository。
 
 # 5. GitHub Pages 部署
 
@@ -464,6 +482,41 @@ git push origin main
 Collapsed text
 {</details >}
 ```
+
+## Google Search Console 無法建立檢索頁面
+
+當我想要為我的網頁建立檢索頁面時，發現 Google Search Console 提示錯誤：
+
+> Google Search Console 提示「替代頁面（有適當的標準標記）」
+
+並在下方可能問題顯示我的網頁提供 http 網址。
+
+因此在與 ChatGPT 討論後，首先，我們先檢查 html 的 canonical URL。
+
+我們發現 canonical URL 指向 `http`，而非我在 `config.yaml` 中設定的 `https`，因此導致 Google 認為 HTTP 版本才是主要頁面，而不索引 HTTPS 版本。
+
+### 解決方法
+
+1. 檢查 `config.yaml` 中的 `baseURL` 設定
+
+   若為 `http`，則需要將 `http` 改為 `https`。
+
+2. 修改 `head.html` 中的 canonical URL 設定
+
+   在 blog 的 layout 新增 partial 資料夾，並在 partial 中新增 `head.html` 覆蓋 PaperMod 主題中的 `head.html`
+
+   再來找到以下程式碼：
+
+   ```html
+   <link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim
+   .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}">
+   ```
+
+   將 `{{ .Permalink }}` 改為 `{{ .Permalink | absURL }}`
+
+3. 重新部署
+
+   重新部署網站，並回到 Google Search Console 查看，應該會發現已經可以建立檢索頁面了。
 
 # 參考資料
 
