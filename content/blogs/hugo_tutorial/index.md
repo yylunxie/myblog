@@ -2,7 +2,7 @@
 title: "Hugo + GitHub Pages 個人網站建置教學"
 date: "2024-11-30T22:36:51+08:00"
 tags: ["Hugo", "GitHub Pages", "PaperMod"]
-slug: hugo_tutorial
+slug: hugo-blog-deployment-tutorial
 draft: false
 cover:
   image: "<image path/url>" # image path/url
@@ -239,7 +239,7 @@ hugo server -D
 來檢查文章是否正確，若沒有問題，則可以使用
 
 ```bash
-hugo -gc -minify
+hugo --gc --minify
 ```
 
 來部署文章，並將部署後的檔案 push 到 GitHub repository。
