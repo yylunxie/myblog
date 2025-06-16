@@ -45,6 +45,3 @@ comments: true
 ![Photo](img/japan-18.jpeg)
 ![Photo](img/japan-19.jpeg)
 ![Photo](img/japan-20.jpeg)
-
-<!-- ![Photo 2](<image path/url 2> "Photo 2 Caption")
-![Photo 3](<image path/url 3> "Photo 3 Caption") -->

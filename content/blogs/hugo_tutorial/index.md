@@ -25,7 +25,7 @@ _Update: Feb 3, 2025_
 
 - **MacOS**
 
-  **Step 1.** <br>
+  **Step 1.**
 
   使用 Homebrew 進行安裝，若還未安裝 Homebrew 請先自行安裝。進入 Terminal (終端機) 輸入以下指令：
 
@@ -33,7 +33,7 @@ _Update: Feb 3, 2025_
   brew install hugo
   ```
 
-  **Step 2.** <br>
+  **Step 2.**
 
   輸入以下指令已檢查是否安裝成功：
 
@@ -45,11 +45,11 @@ _Update: Feb 3, 2025_
 
 # 2. 套用主題
 
-**Step 1.** <br>
+**Step 1.**
 
 到 [官方的主題網站](https://themes.gohugo.io/) 瀏覽並選擇自己喜歡的主題，本文以 _PaperMod_ 為例。
 
-**Step 2.**<br>
+**Step 2.**
 
 先在本地創建一個新的 Hugo 網站。
 
@@ -60,7 +60,7 @@ hugo new site MyFreshWebsite --format yaml
 
 - `--format yaml`：將 hugo 的設定檔更改為 yaml 格式。
 
-**Step 3.** <br>
+**Step 3.**
 
 安裝 PaperMod 主題，這邊我按照最簡單的 [官方的 Method 1](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/)（git clone）:
 
@@ -81,9 +81,7 @@ hugo new site MyFreshWebsite --format yaml
   git pull
   ```
 
-  <br>
-
-**Step 4.** <br>
+**Step 4.**
 
 最後，在網站的設定檔 `config.yaml` 中將 Theme 指定為 PaperMod。
 

@@ -1,9 +1,9 @@
 baseURL: "https://yylunxie.me/"
 languageCode: en-us
+title: Allen's Space
 theme: PaperMod
-paginate: 5
-title: Allen Hsieh
-
+pagination:
+  pagerSize: 5
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 
@@ -13,6 +13,12 @@ buildFuture: false
 buildExpired: false
 
 googleAnalytics: G-SCFTQCXK4Y
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -74,14 +80,24 @@ languages:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: AllenHsieh
-  description: "This is the website of Allen Hsieh"
-  author: Allen Hsieh
-  keywords: [Blog, Portfolio, Data Science, PaperMod]
-  DateFormat: "January 2, 2006"
+  title: "Allen's Space"
+  author: "Allen Hsieh"
+  description: "Welcome to Allen's Space – sharing thoughts on AI, life, and learning."
+  keywords:
+    - "AI"
+    - "Machine Learning"
+    - "Life"
+    - "Personal Blog"
+    - "Data Science"
+  DateFormat: "2006-01-02"
+
   assets:
     favicon: "images/open-book.png"
-  ShareButtons: ["x", "linkedin", "facebook"]
+
+  ShareButtons:
+    - "x"
+    - "linkedin"
+    - "facebook"
 
   # profile-mode
   # profileMode:
@@ -158,3 +174,9 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+
+# Markdown rendering
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

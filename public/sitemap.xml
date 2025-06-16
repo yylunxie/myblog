@@ -4,74 +4,124 @@
   <url>
     <loc>https://yylunxie.me/</loc>
     <lastmod>2025-06-08T15:50:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/blogs/</loc>
     <lastmod>2025-06-08T15:50:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/</loc>
     <lastmod>2025-06-08T15:50:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/blogs/2025-spring-life/</loc>
     <lastmod>2025-06-08T15:50:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/</loc>
     <lastmod>2025-06-08T15:50:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/python/</loc>
     <lastmod>2025-02-13T18:49:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/blogs/what-is-wsgi/</loc>
     <lastmod>2025-02-13T18:49:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/ai/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/machine-learning/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/semi-supervised-learning/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/supervised-learning/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/unsupervised-learning/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/blogs/aws_aif_qanda/</loc>
     <lastmod>2025-02-02T17:04:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/github-pages/</loc>
     <lastmod>2024-11-30T22:36:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/hugo/</loc>
     <lastmod>2024-11-30T22:36:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/blogs/hugo-blog-deployment-tutorial/</loc>
     <lastmod>2024-11-30T22:36:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/papermod/</loc>
     <lastmod>2024-11-30T22:36:51+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/gallery/</loc>
     <lastmod>2024-11-30T11:25:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/japan/</loc>
     <lastmod>2024-11-30T11:25:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/gallery/japan/</loc>
     <lastmod>2024-11-30T11:25:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/tags/photography/</loc>
     <lastmod>2024-11-30T11:25:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/projects/</loc>
     <lastmod>2024-11-30T11:24:54+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/archives/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://yylunxie.me/search/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
