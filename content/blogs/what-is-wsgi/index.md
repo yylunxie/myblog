@@ -4,12 +4,6 @@ date: "2025-02-13T18:49:59+08:00"
 draft: false
 tags: ["Python"]
 slug:
-cover:
-  image: "<image path/url>" # image path/url
-  alt: "<alt text>" # alt text
-  caption: "<text>" # display caption under cover
-  relative: false # when using page bundles set this to true
-  hidden: true # only hide on current single page
 ---
 
 ## WSGI 介紹

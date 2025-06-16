@@ -4,12 +4,6 @@ date: "2025-01-10T22:36:51+08:00"
 tags: ["Hackerrank", "Python"]
 slug: hackerrank_day0
 draft: true
-cover:
-  image: "<image path/url>" # image path/url
-  alt: "<alt text>" # alt text
-  caption: "<text>" # display caption under cover
-  relative: false # when using page bundles set this to true
-  hidden: true # only hide on current single page
 ---
 
 這篇文是新系列「Hackerrank」的第 0 篇。會開始寫 Hackerrank 是因為朋友邀請我參加 **2025 TSMC IT CareerHack 第六屆校園黑客松**，參賽隊伍必須先完成初試才能進入下一階段。初試所使用的線上測驗系統就是 Hackerrank，因此在決定參賽後馬上開始練習 Hackerrank 的 1 Month Preparation Kit。
